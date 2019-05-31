@@ -142,6 +142,36 @@ nav a:hover{
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue; 
+}
 
 .bottom-content {
     display: flex;
@@ -178,34 +208,6 @@ footer nav a {
 
 .middle-content.boxes.box Box1{
     background-color: teal
-}
-
-.box1{
-    background-color: gold
-}
-.box Box3{
-    background-color: cadetblue;
-}
-.box Box4{
-    background-color: coral;
-}
-.box Box5{
-    background-color: crimson;
-}
-.box Box6{
-    background-color: forestgreen;
-}
-.box Box7{
-    background-color: darkorchid;
-}
-.box Box8{
-    background-color: hotpink;
-}
-.box Box9{
-    background-color: indigo;
-}
-.box Box10{
-    background-color: dodgerblue; 
 }
 
 .top-about{
@@ -278,4 +280,9 @@ button{
 	border: 1px solid black;
     background-color: white;
     border-radius: 10px;
+}
+
+.pg2headers{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
