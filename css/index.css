@@ -71,11 +71,42 @@ p {
     margin: 0 auto;
 }
 
+.about{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 10px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+.top-pic1{
+    margin-top: 30px;
+}
+.top-pic2{
+    margin-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -143,4 +174,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content.boxes.box Box1{
+    background-color: teal
+}
+
+.box1{
+    background-color: gold
+}
+.box Box3{
+    background-color: cadetblue;
+}
+.box Box4{
+    background-color: coral;
+}
+.box Box5{
+    background-color: crimson;
+}
+.box Box6{
+    background-color: forestgreen;
+}
+.box Box7{
+    background-color: darkorchid;
+}
+.box Box8{
+    background-color: hotpink;
+}
+.box Box9{
+    background-color: indigo;
+}
+.box Box10{
+    background-color: dodgerblue; 
+}
+
+.top-about{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.pg2content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.firsthalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.secondhalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.partone{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.parttwo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.partthree{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.partfour{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.bottom-about{
+    margin-bottom: 5px;
+    padding: 30px;
+}
+button{
+	padding: 10px 15px;
+	font-size: 12px;
+    max-width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
 }
